@@ -84,7 +84,7 @@ export default function Contact() {
                     <div className="w-10 h-10 rounded-lg bg-[#F5F6F8] flex items-center justify-center group-hover:bg-[#2962FF]/10 transition-colors duration-200">
                       <Mail className="w-5 h-5" />
                     </div>
-                    <span>sunny@example.com</span>
+                    <span>brightskysunhee@gmail.com</span>
                   </motion.a>
                   <motion.a
                       href="https://github.com/iris-starry"
