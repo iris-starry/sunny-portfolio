@@ -12,30 +12,32 @@ import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 
 export default function Home() {
-  const [showSplash, setShowSplash] = useState(true)
+    const [showSplash, setShowSplash] = useState(true)
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false)
     }, 3000)
 
-    return () => clearTimeout(timer)
-  }, [])
+        return () => clearTimeout(timer)
+    }, [])
 
-  if (showSplash) {
-    return <SplashScreen />
-  }
+/*    if (showSplash) {
+        return <SplashScreen />
+    }*/
 
   return (
-    <main className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
-      <Header />
-      <Hero />
-      <TechStack />
-      <Projects />
-      <Experience />
-      <About />
-      <Contact />
-      <Footer />
-    </main>
+      <main className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+          <Header/>
+          <Hero/>
+          <TechStack/>
+          <Projects/>
+          <Experience/>
+          <About/>
+          <div className="min-h-screen snap-end flex flex-col justify-between">
+              <Contact/>
+              <Footer/>
+          </div>
+      </main>
   )
 }

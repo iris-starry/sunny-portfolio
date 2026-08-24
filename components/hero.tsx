@@ -137,7 +137,7 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="text-lg md:text-xl text-[#555555] max-w-2xl mx-auto leading-relaxed"
           >
-            Building intuitive, high-performance web experiences with modern technologies and thoughtful design.
+            Building user-centered experiences while making thoughtful use of technology and resources.
           </motion.p>
 
           {/* CTA Buttons */}

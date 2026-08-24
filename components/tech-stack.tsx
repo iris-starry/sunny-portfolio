@@ -26,7 +26,7 @@ export default function TechStack() {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-[#222222] font-heading">Tech Stack</h2>
           <p className="text-lg text-[#555555] max-w-2xl mx-auto">
-            Technologies and tools I use to bring ideas to life
+            Tools & Technologies I Work With
           </p>
         </motion.div>
 

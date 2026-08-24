@@ -28,3 +28,7 @@ next-env.d.ts
 
 # IDEs
 .idea/
+
+# local env files
+.env*.local
+.env
