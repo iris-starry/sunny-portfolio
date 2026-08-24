@@ -77,7 +77,7 @@ export default function Contact() {
                 <h3 className="text-xl font-bold text-[#222222] mb-4 font-heading">Get in Touch</h3>
                 <div className="space-y-4">
                   <motion.a
-                      href="brightskysunhee@gmail.com"
+                      href="mailto:brightskysunhee@gmail.com"
                       whileHover={{ x: 5 }}
                       className="flex items-center gap-3 text-[#555555] hover:text-[#2962FF] transition-colors duration-200 group"
                   >
